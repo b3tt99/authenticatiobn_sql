@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity">
+
+    <EditText
+        android:hint="Enter email"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edxtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:hint="Password"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edxtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginTop="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/btnlogh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log  In" />
+
+    <Button
+        android:layout_marginTop="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:id="@+id/btnreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+</RelativeLayout>
